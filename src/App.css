@@ -1,0 +1,68 @@
+.app {
+    display: flex;
+}
+.menu {
+  
+  background-color: yellow;
+  width: 15
+  0px;
+  height: 100vh;
+  padding: 18px;
+}
+.menuCategory {
+  display: flex;
+  flex-flow: column;
+}
+.menubtn {
+  margin: 12px;
+  padding: 12px;
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.menubtn:hover {
+background-color: grey;
+color: white;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #b3b9be;
+  padding: 10px;
+  justify-content: center;
+  grid-gap: 5px;
+  margin: 70px 0 0 70px;
+  
+  
+}
+
+.grid-item {
+  background-color : rgb(212, 113, 19);
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.weigth {
+  display : flex;
+  background-color: grey;
+  height: 100px;
+  justify-content: right;
+  padding: 32px;
+  border-radius: 10px;
+
+}
+label {
+  color:black;
+}
+button {
+  margin: 10px 12px 0  0 ;
+ color: black;
+}
+.currency {
+  background-color: navajowhite;
+  }
